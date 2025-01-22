@@ -12,7 +12,7 @@ This repository provides the official evaluation for our model, as detailed in o
 
 
 ## BEN2 Access
-BEN2 is now publicly available. Trained on DIS5k and our 22K proprietary segmentation dataset, it delivers superior commercial performance in hair matting, 4K processing, object segmentation, and edge refinement. The base model can be found on our huggingface and the full model can be used on our website:
+BEN2 is now publicly available. Trained on DIS5k and our 22K proprietary segmentation dataset, it delivers superior commercial performance in hair matting, 4K processing, object segmentation, and edge refinement. The base model can be found on our huggingface and the full model can be used on our website with api options as well:
 - 🤗 [PramaLLC/BEN2](https://huggingface.co/PramaLLC/BEN2)
 - 🌐 [backgrounderase.net](https://backgrounderase.net)
 
