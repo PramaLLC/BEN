@@ -3,6 +3,7 @@
 [![arXiv](https://img.shields.io/badge/arXiv-2501.06230-b31b1b.svg)](https://arxiv.org/abs/2501.06230)
 [![HuggingFace](https://img.shields.io/badge/🤗%20Hugging%20Face-BEN-blue)](https://huggingface.co/PramaLLC/BEN)
 [![Website](https://img.shields.io/badge/Website-backgrounderase.net-104233)](https://backgrounderase.net)
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/ben-using-confidence-guided-matting-for/dichotomous-image-segmentation-on-dis-vd)](https://paperswithcode.com/sota/dichotomous-image-segmentation-on-dis-vd?p=ben-using-confidence-guided-matting-for)
 
 ## Overview
 BEN (Background Erase Network) introduces a novel approach to foreground segmentation through its innovative Confidence Guided Matting (CGM) pipeline. The architecture employs a refiner network that targets and processes pixels where the base model exhibits lower confidence levels, resulting in more precise and reliable matting results.
