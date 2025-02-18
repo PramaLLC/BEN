@@ -35,7 +35,6 @@ class val_dataset(data.Dataset):
             transforms.ToTensor(),
         ])
         self.size = len(self.img_list)
-        print("Dataset size: ", self.size)
 
     def __getitem__(self, index):
         # Ensure the index is within bounds
@@ -543,9 +542,9 @@ def test_model( test_loader):
 
         for index in range(num_images):
             
-            print("START")
+
             res, gt = test_loader.load_data(index)
-            print("HERER")
+
 
             res_tensor = img_transform(res).unsqueeze(0)
             gt_tensor = img_transform(gt).unsqueeze(0)
@@ -600,7 +599,7 @@ def test_model( test_loader):
             formatted_metrics = formatted_metrics[:max_length - 3] + '...'
         filepath = f"results{formatted_metrics}"
         print("testedModel: ", filepath)
-        print("MAE IS ", MAE)
+
         return filepath, metrics
 
     except Exception as e:
